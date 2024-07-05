@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azad IT Consultancy Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- navbar column  -->
+    <ul>
+        <li><a class="navbar-brand" href="#"></a><img class="img" src="/IT/Home/Images/Logo.jpg" alt="Logo" style="width: 60px;height: 60px;" class="rounded-pill">
+        <li><a class="name" href="#">Azad IT</a></li>
+        <li><a href="/IT/Home/index.html">Home</a></li>
+        <li><a href="/IT/Services/index.html">Services</a></li>
+        <li><a href="/IT/Career/index.html">Career</a></li>
+        <li><a href="/IT/About/index.html">About Us</a></li>
+        <li><a class="active" href="/IT/Contact/index.html">Contact Us</a></li>
+      </ul>
+      <br><br>
+
+      <!-- contact us -->
+      <div class="wrapper"> 
+        <h2>Contact us</h2> 
+        <div id="error_message"> 
+  
+        </div> 
+        <form action="action.php" method="post"
+              id="myform" 
+              onsubmit="return validate();"> 
+            <div class="input_field"> 
+                <input type="text" 
+                       placeholder="Name" 
+                       id="name" name="name"> 
+            </div> 
+            <div class="input_field"> 
+                <input type="text" 
+                       placeholder="Age" 
+                       id="age" name="age"> 
+            </div> 
+            <div class="input_field"> 
+                <input type="text" 
+                       placeholder="Phone" 
+                       id="phone" name="phone"> 
+            </div> 
+            <div class="input_field"> 
+                <input type="text" 
+                       placeholder="Email" 
+                       id="email" name="email"> 
+            </div> 
+            <p class="mess"><label for="message">Enter your message:</label></p>
+            <div class="input_field"> 
+                <textarea placeholder="Enter your message" 
+                          id="message" name="message"> 
+                </textarea> 
+            </div> 
+            <div class="btn"> 
+                <input type="submit"> 
+            </div> 
+        </form> 
+    </div> 
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <hr>
+        <p><a href="/IT/Services/index.html">Services</a><br>
+          <a href="/IT/Career/index.html">Career</a><br>
+          <a href="/IT/About/index.html">About Us</a><br>
+          <a href="/IT/Contact/index.html">Contact Us</a><br>
+          <br>
+          <br>
+          <br>
+          <b>Address:</b><a href="https://maps.app.goo.gl/YoxuvXCSo7JmJaWt9"> Tech Avenue, Suite 201, Digital City, State of Progress, Techlandia, ZIP 98765</a> <br>
+          <b>Phone:</b> <a href="tel:98765 43210"> 98765 43210 <br></a>
+          <b><a href="mailto:info.azadit@example.com"> Email:</b> info.azadit@example.com<br></a>
+          <br>
+          you agree to have read and accepted our terms of use, cookie and privacy policy.<br>
+          <hr>
+
+              <!-- Social media icons -->
+               <div class="icons">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-google"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-youtube"></a>
+              <a href="#" class="fa fa-instagram"></a>
+               </div>
+               <hr>
+
+               <p>Copyright &copy; 2024 Azad IT.<br>
+                All rights reserved.
+               </p>
+              </footer>
+
+</body>
+<script src="script.js"> </script>
+</html>
