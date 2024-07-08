@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azad IT Consultancy Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- navbar column  -->
+    <ul>
+        <li><a class="navbar-brand" href="#"></a><img class="img" src="/IT/Home/Images/Logo.jpg" alt="Logo" style="width: 60px;height: 60px;" class="rounded-pill">
+        <li><a class="name" href="#">Azad IT</a></li>
+        <li><a class="active" href="/IT/Home/index.html">Home</a></li>
+        <li><a href="/IT/Services/index.html">Services</a></li>
+        <li><a href="/IT/Career/index.html">Career</a></li>
+        <li><a href="/IT/About/index.html">About Us</a></li>
+        <li><a href="/IT/Contact/index.html">Contact Us</a></li>
+      </ul>
+
+      <!-- images -->
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="/IT/Home/Images/Slide img1.jfif" style="width:100%; height: 500px;">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="/IT/Home/Images/Slide img2.jfif" style="width:100%;height: 500px;">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="/IT/Home/Images/Slide img3.jfif" style="width:100%;height: 500px;">
+          <div class="text">Caption Three</div>
+        </div>
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div> 
+        <!-- introduction -->
+        <button class="btn">
+           <b class="intro">INTRODUCTION</b><hr class="line1"><br>
+            Azad IT Company is a leading provider of innovative IT solutions and services, dedicated to empowering businesses through cutting-edge technology. Established with a vision to redefine the IT landscape, Azad IT Company has built a reputation for delivering excellence across various domains including software development, cybersecurity, cloud computing, and digital transformation.<br><br>
+            
+            With a focus on client satisfaction and technological advancement, Azad IT Company offers tailored solutions that meet the unique needs of businesses, from startups to enterprise-level organizations. The company prides itself on its team of skilled professionals who bring expertise, creativity, and dedication to every project, ensuring optimal outcomes and sustainable growth for their clients. <br> <br>
+            
+            Driven by a commitment to quality, innovation, and integrity, Azad IT Company continues to leverage the latest advancements in technology to help businesses achieve their goals efficiently and effectively in today's rapidly evolving digital landscape. <br> <br>
+            
+            Azad IT Company stands at the forefront of the technology sector as a dynamic and forward-thinking organization dedicated to transforming businesses through innovative IT solutions. Founded with a clear vision of revolutionizing the IT industry, Azad IT Company has established itself as a trusted partner for companies seeking to leverage technology for competitive advantage.<br> <br>
+
+            Specializing in a wide array of services including software development, cybersecurity, cloud computing, and digital transformation, Azad IT Company caters to diverse industries and scales of operations. The company distinguishes itself by combining deep industry expertise with cutting-edge technological capabilities to deliver bespoke solutions that address specific business challenges and opportunities. <br> <br>
+            
+            At the heart of Azad IT Company's success lies its team of highly skilled professionals who are committed to delivering excellence in every project they undertake. Through a customer-centric approach, the company collaborates closely with clients to understand their unique requirements and objectives, thereby ensuring the delivery of solutions that drive tangible results and sustainable growth.<br> <br>
+            
+            With a steadfast dedication to quality, innovation, and integrity, Azad IT Company continues to innovate and adapt to the evolving technological landscape, empowering businesses to thrive in a digital-first world. 
+            <span class="ribbon">INTRO</span></button>
+
+            <!-- Services -->
+            <hr>
+            <div style="text-align:center">
+                <h2>Services</h2>
+              </div>
+              <hr>
+              <!-- Three columns -->
+              <div class="row">
+                <div class="column" onclick="openTab('b1');" style="background:#f4f459">
+                    Software Development
+                </div>
+                <div class="column" onclick="openTab('b2');" style="background:rgb(143, 143, 223);">
+                 Cybersecurity Solutions
+                </div>
+                <div class="column" onclick="openTab('b3');" style="background:rgb(125, 212, 135);">
+                Cloud Computing Services
+                </div>
+                <div class="column" onclick="openTab('b4');" style="background:rgb(225, 129, 225);">
+                Digital Transformation 
+                  </div>
+              </div>
+              
+              <!-- Service 1 -->
+              <!-- Full-width columns: (hidden by default) -->
+              <div id="b1" class="containerTab" style="display:none;background:#f4f459">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <h2>Software Development</h2>
+                <p> Azad IT Company excels in custom software development, creating tailored solutions that align with clients' specific requirements. From web applications to mobile apps and enterprise software, their development team ensures high-quality, scalable solutions that drive efficiency and productivity.</p>
+              </div>
+
+              <!-- Service 2 -->
+              <div id="b2" class="containerTab" style="display:none;background:rgb(143, 143, 223)">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <h2>Cybersecurity Solutions</h2>
+                <p> Recognizing the critical importance of cybersecurity in today's digital landscape, Azad IT Company provides robust cybersecurity services. This includes network security assessments, penetration testing, threat detection and response, and implementation of security protocols to safeguard organizations against cyber threats.</p>
+              </div>
+
+              <!-- Service 3 -->
+              <div id="b3" class="containerTab" style="display:none;background:rgb(125, 212, 135)">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <h2>Cloud Computing Services</h2>
+                <p>Azad IT Company offers cloud solutions tailored to optimize business operations. They provide cloud migration services, infrastructure management, and ongoing support for cloud environments, enabling businesses to enhance scalability, reliability, and cost-efficiency.
+
+                </p>
+              </div>
+
+              <!-- Service 4 -->
+              <div id="b4" class="containerTab" style="display:none;background:rgb(225, 129, 225)">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <h2>Digital Transformation</h2>
+                <p>As businesses increasingly embrace digital transformation, Azad IT Company facilitates this journey through strategic consulting and implementation services. They assist organizations in adopting emerging technologies like AI and IoT, optimizing processes, and enhancing customer experiences to stay competitive in the digital age.</p>
+              </div>
+              <hr>
+
+              <!-- Testimonials -->
+               <h1 class="Test">Testimonials</h1>
+               <hr>
+              <div class="container">
+                <img src="/IT/Home/Images/Profile pic.png" alt="profile pic" style="width:90px">
+                <p><span>Rajesh Kumar</span> Software Developer</p>
+                <p>"Azad IT transformed our outdated IT infrastructure into a streamlined, efficient system. Their expertise and dedication are unmatched!"</p>
+              </div>
+              
+              <div class="container">
+                <img src="/IT/Home/Images/Profile pic.png" alt="profile pic" style="width:90px">
+                <p><span >Priya Sharma</span> Marketing Manager</p>
+                <p>"I highly recommend Azad IT for their prompt service and in-depth knowledge. They helped us navigate complex IT challenges effortlessly."</p>
+              </div>
+
+              <div class="container">
+                <img src="/IT/Home/Images/Profile pic.png" alt="profile pic" style="width:90px">
+                <p><span >Sandeep Singh</span> Entrepreneur </p>
+                <p>"Choosing Azad IT was the best decision for our startup. They provided tailored solutions that perfectly fit our needs."</p>
+              </div>
+
+              <div class="container">
+                <img src="/IT/Home/Images/Profile pic.png" alt="profile pic" style="width:90px">
+                <p><span >Ananya Gupta</span> Operations Manager </p>
+                <p>"The team at Azad IT is exceptional. They not only solved our IT issues but also educated us on best practices for long-term success."</p>
+              </div>
+
+              <div class="container">
+                <img src="/IT/Home/Images/Profile pic.png" alt="profile pic" style="width:90px">
+                <p><span >Nikhil Patel</span> IT Director </p>
+                <p>"Azad IT's support team is always responsive and professional. Their proactive approach has kept our systems running smoothly."</p>
+              </div>
+
+              <div class="container">
+                <img src="/IT/Home/Images/Profile pic.png" alt="profile pic" style="width:90px">
+                <p><span >Deepika Reddy</span> HR Consultant </p>
+                <p>"Working with Azad IT was a breeze. They communicated clearly and implemented solutions that exceeded our expectations."</p>
+              </div>
+
+              <div class="container">
+                <img src="/IT/Home/Images/Profile pic.png" alt="profile pic" style="width:90px">
+                <p><span >Amit Jain</span> Financial Analyst </p>
+                <p>"Azad IT goes above and beyond. Their commitment to customer satisfaction is evident in every interaction. I wouldn't hesitate to recommend them."</p>
+              </div>
+
+              <!-- Footer -->
+      <footer>
+        <hr>
+        <p><a href="/IT/Services/index.html">Services</a><br>
+          <a href="/IT/Career/index.html">Career</a><br>
+          <a href="/IT/About/index.html">About Us</a><br>
+          <a href="IT/Contact/index.html">Contact Us</a><br>
+          <br>
+          <br>
+          <br>
+          <b>Address:</b><a href="https://maps.app.goo.gl/YoxuvXCSo7JmJaWt9"> Tech Avenue, Suite 201, Digital City, State of Progress, Techlandia, ZIP 98765</a> <br>
+          <b>Phone:</b> <a href="tel:98765 43210"> 98765 43210 <br></a>
+          <b><a href="mailto:info.azadit@example.com"> Email:</b> info.azadit@example.com<br></a>
+          <br>
+          you agree to have read and accepted our terms of use, cookie and privacy policy.<br>
+          <hr>
+
+              <!-- Social media icons -->
+               <div class="icons">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-google"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-youtube"></a>
+              <a href="#" class="fa fa-instagram"></a>
+               </div>
+               <hr>
+
+               <p>Copyright &copy; 2024 Azad IT.<br>
+                All rights reserved.
+               </p>
+              </footer>
+
+</body>
+<script src="script.js"> </script>
+</html>
